@@ -50,16 +50,16 @@ Pseudocodigo numeros primos
 	  r : entero
 	  inicio
 	     i := 2
-		 z := 3
-		 q := 5
-		 r := 7
-		 i := 2
-		 Mientras ( 2 <= n ) 
-		    Si (descomposición) (n,i) == cantidad par de primos
-			     hacer(parejas con estos primos)
-			sino
-		         escribir(n no tiene raíz cuadrada)
-			Si *(parejas) == equivalente
-			     escribir (n tiene raíz cuadrada)
-      Fin mientras
-    fin
+	     z := 3
+             q := 5
+	     r := 7
+	     i := 2
+	     Mientras ( 2 <= n ) 
+	       Si (descomposición) (n,i) == cantidad par de primos
+	         hacer(parejas con estos primos)
+	       sino
+		 escribir(n no tiene raíz cuadrada)
+	       Si *(parejas) == equivalente
+		 escribir (n tiene raíz cuadrada)
+       Fin mientras
+     fin
