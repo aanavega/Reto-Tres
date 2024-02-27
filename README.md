@@ -26,10 +26,10 @@ Pseudocodigo numeros primos
 	  Si modulo( n,z ) == 0 entonces
 	    escribir( “n no es primo” )
           sino
-	  Si modulo( n,q ) == 0 entonces
+          Si modulo( n,q ) == 0 entonces
 	    escribir( “n no es primo” )
 	  sino
-	  Si modulo( n,r ) == 0 entonces
+          Si modulo( n,r ) == 0 entonces
 	    escribir( “n no es primo” )
 	Fin mientras
        fin
