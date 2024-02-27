@@ -6,8 +6,9 @@ A continuacion los algoritmos correspondientes, junto con sus diagramas de flujo
 Pseudocodigo numeros primos
 -------------
 
-    [variables]
-   n : entero
+     
+     [variables]
+     n : entero
      i : entero
      z : entero
      q : entero
