@@ -39,7 +39,7 @@ Diagrama  de flujo numeros primos
 
 <a href='https://postimg.cc/94qg8MxB' target='_blank'><img src='https://i.postimg.cc/yNfqN3c2/Diagrama-numeros-primos.png' border='0' alt='Diagrama-numeros-primos'/></a>   
 
-Pseudocodigo numeros primos
+Pseudocodigo para hallar raices cuadradas
 -------------
 
     [variables]
