@@ -18,7 +18,7 @@ Pseudocodigo numeros primos
         q := 5
         r := 7
         n ≠ i, z, q, r
-	Mientras ( 2 < n )
+        Mientras ( 2 < n )
         Mientras ( n > i, z, q, r )
           Si modulo( n,i ) == 0 entonces
 	    escribir( “n no es primo’’ )
@@ -33,6 +33,6 @@ Pseudocodigo numeros primos
 	    escribir( “n no es primo” )
 	Fin mientras
        fin
-    ?>
+       
 Diagrama  de flujo numeros primos
 -------------
