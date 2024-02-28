@@ -1,7 +1,7 @@
 Reto numero 3
 =============
 
-A continuacion los algoritmos correspondientes, junto con sus diagramas de flujo y pseudocodigos
+A continuacion el reto numero tres, teniendo en cuenta los pseudocodigos y flujo gramas correspondientes (hallar numeros primos y raices cuadradas).
 
 Pseudocodigo numeros primos
 -------------
@@ -18,19 +18,19 @@ Pseudocodigo numeros primos
          q := 5
          r := 7
          n ≠ i, z, q, r
-         Mientras ( 2 < n )
-         Mientras ( n > i, z, q, r )
-           Si modulo( n,i ) == 0 entonces
-             escribir( “n no es primo’’ )
+         Mientras (2 < n)
+         Mientras (n > i, z, q, r)
+           Si modulo(n,i) == 0 entonces
+             escribir(“n no es primo")
            sino
            Si modulo( n,z ) == 0 entonces
-             escribir( “n no es primo” )
+             escribir(“n no es primo”)
            sino
-           Si modulo( n,q ) == 0 entonces
-             escribir( “n no es primo” )
+           Si modulo(n,q) == 0 entonces
+             escribir(“n no es primo”)
            sino
-           Si modulo( n,r ) == 0 entonces
-             escribir( “n no es primo” )
+           Si modulo(n,r) == 0 entonces
+             escribir(“n no es primo”)
          Fin mientras
         fin
        
@@ -50,16 +50,15 @@ Pseudocodigo para hallar raices cuadradas
 	  r : entero
 	  inicio
 	     i := 2
-	     z := 3
+             z := 3
              q := 5
 	     r := 7
-	     i := 2
-	     Mientras ( 2 <= n ) 
-	       Si (descomposición) (n,i) == cantidad par de primos
-	         hacer(parejas con estos primos)
+	     Mientras (2 <= n) 
+	       Si (descomposicion de n entre i, z, q o r da lugar a una cantidad par de numeros) entonces
+	          Formar grupos con los numeros primos usados en la descomposicion teniendo en cada grupo los mismos numeros
+	       Si (productos de cada grupo de numero son equivalemtes) entonces
+	          escribir(n tiene raiz cuadrada)
 	       sino
 		 escribir(n no tiene raíz cuadrada)
-	       Si *(parejas) == equivalente
-		 escribir (n tiene raíz cuadrada)
        Fin mientras
      fin
