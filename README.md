@@ -49,10 +49,10 @@ Pseudocodigo para hallar raices cuadradas
 	  q : entero
 	  r : entero
 	  inicio
-	     i := 2
-             z := 3
-	     q := 5
-             r := 7
+           i := 2
+           z := 3
+           q := 5
+           r := 7
 	     Mientras (2 <= n) 
 	       Si (descomposicion de n entre i, z, q o r da lugar a una cantidad par de numeros) entonces
 	          Formar grupos con los numeros primos usados en la descomposicion teniendo en cada grupo los mismos numeros
