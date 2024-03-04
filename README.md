@@ -54,14 +54,27 @@ Pseudocodigo para hallar raices cuadradas
            q := 5
            r := 7
 	     Mientras (2 <= n) 
-	       Si (descomposicion de n entre i, z, q o r da lugar a una cantidad par de numeros) entonces
-	          Formar grupos con los numeros primos usados en la descomposicion teniendo en cada grupo los mismos numeros
-	       Si (productos de cada grupo de numero son equivalemtes) entonces
-	          escribir(n tiene raiz cuadrada)
-	       sino
-		 escribir(n no tiene raíz cuadrada)
-       Fin mientras
-     fin
+	       Si (descomposicion de n entre i) == cantidad par de numeros, entonces
+	          Formar grupos con los numeros primos usados en la descomposicion
+	          Ubicar en cada sub grupo los mismos numeros
+	       Si no
+	       Si (descomposicion de n entre z) == cantidad par de numeros, entonces
+	          Formar grupos con los numeros primos usados en la descomposicion
+	          Ubicar en cada sub grupo los mismos numeros
+	       Si no
+               Si (descomposicion de n entre q) == cantidad par de numeros, entonces
+	          Formar grupos con los numeros primos usados en la descomposicion
+	          Ubicar en cada sub grupo los mismos numeros
+	       Si no
+               Si (descomposicion de n entre r) == cantidad par de numeros, entonces
+	          Formar grupos con los numeros primos usados en la descomposicion
+	          Ubicar en cada sub grupo los mismos numeros
+                   Si (productos de cada grupo de numero) == equivalemtes, entonces
+	             escribir(n tiene raiz cuadrada)
+	           sino
+		     escribir(n no tiene raíz cuadrada)
+                 Fin mientras
+           fin
 
 Diagrama  de flujo raices cuadradas
 -------------
